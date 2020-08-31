@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Exo 10 JS</title>
+        
+    </head>
+    <body>
+        <h1>Exercice 10 : Récapitulons</h1>
+        <p>Le jeu du plus ou moins</p>
+
+        <script type="text/javascript">
+        	
+      
+        	function nb_aleatoire (min,max)
+        	{  	
+        	var nb = min + (max-min+1)*Math.random();
+        	return Math.floor(nb);
+        	}
+
+        	{
+        	var nb = nb_aleatoire (1,100);  
+			var cpt=0;
+			var saisie;
+			var msg = 'Le nombre à deviner est compris entre '+ 1 + ' et ' + 100 +'.';
+
+        	}
+
+        
+	        do 
+	        { 
+
+	        saisie = prompt (msg);
+	        cpt++;
+
+	        if ( saisie > nb)
+	        	msg = "C'est moins";
+	        
+	        else 
+	        	msg = "C'est plus";
+	        }
+			
+        	while (saisie != nb);
+				alert ( "Bravo tu as gagné en" + cpt + "coups !");
+        
+
+        </script>
+
+
+    </body>
+</html>
