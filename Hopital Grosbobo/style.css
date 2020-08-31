@@ -1,0 +1,160 @@
+body
+{
+	margin : 0;
+	padding : 0;
+}
+
+
+header
+{
+	margin: 100px;
+	display: block;
+	font-family: Arvo;
+	font-size:50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+img
+{
+	margin-top: 100px;
+	margin-left: 220px;
+	display: block;
+	position: absolute;
+}
+
+div
+{
+	position: absolute;
+	margin-left: 600px;
+	font-family: Arvo;
+	font-size: 50px;
+}
+
+#membre1
+{
+	display: none;
+}
+
+.epaule
+{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius:50%;
+	opacity: 70%;
+	margin-left: 220px;
+	margin-top: 180px;
+	position:absolute;
+}
+
+
+
+#membre2
+{
+	display: none;
+	
+}
+
+.coude
+{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius:50%;
+	opacity: 70%;
+	margin-left: 325px;
+	margin-top: 285px;
+	position:absolute;
+}
+
+#membre3
+{
+	display: none;
+}
+
+.poignet
+{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius:50%;
+	opacity: 70%;
+	margin-left: 215px;
+	margin-top: 320px;
+	position:absolute;
+}
+
+#membre4
+{
+	display: none;
+}
+
+.hanche
+{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius:50%;
+	opacity: 70%;
+	margin-left: 310px;
+	margin-top:350px;
+	position:absolute;
+}
+
+#membre5
+{
+	display: none;
+}
+
+.genou
+{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius:50%;
+	opacity: 70%;
+	position:absolute;
+	margin-left: 247px;
+	margin-top: 450px;
+}
+
+#membre6
+{
+	display: none;
+
+}
+
+.cheville
+{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius:50%;
+	opacity: 70%;
+	position:absolute;
+	margin-left: 290px;
+	margin-top: 530px;
+}
+
+@media screen and (max-device-width:585px) and (orientation:landscape)
+{
+	div {
+			height: 150px;
+			width: 200px;
+			display: flex;
+			flex-direction: column;
+	}
+	
+
+	body {
+			max-width: 100% ;
+			height: auto;
+			display: block;
+			flex-direction: column;
+		}
+
+}
+
+
+
